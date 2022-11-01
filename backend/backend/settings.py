@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # engine: mysql
-        'NAME' : 'database-2', # DB Name
+        'NAME' : 'webdb', # DB Name
         'USER' : 'admin', # DB User
         'PASSWORD' : 'adminadmin', # Password
         'HOST': 'database-2.czxrv3ygqn3s.ap-northeast-2.rds.amazonaws.com', # 생성한 데이터베이스 엔드포인트
